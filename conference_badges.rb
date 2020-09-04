@@ -10,5 +10,5 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index {|speaker, index| speaker return index + 1}
-  return "Hello, #{speaker}! You'll be assigned to room #{ }!"
+  return "Hello, #{speaker}! You'll be assigned to room #{index}!"
 end
