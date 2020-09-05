@@ -22,5 +22,8 @@ def printer(attendees)
     puts sticker
   end
 
-  #puts assign_rooms(attendees)
+  assign_rooms(attendees)
+  rooms.each do |assignment|
+    puts assignment
+  end
 end
