@@ -22,5 +22,5 @@ def printer(attendees)
     puts sticker
   end
 
-  puts assign_rooms(attendees)
+  #puts assign_rooms(attendees)
 end
